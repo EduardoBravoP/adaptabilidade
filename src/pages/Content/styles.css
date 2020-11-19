@@ -1,0 +1,106 @@
+div#container {
+  display: grid;
+  height: 100vh;
+  background: linear-gradient(180deg, #C9D6FF 55.21%, rgba(250, 250, 250, 0) 100%);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div#container h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #517099;
+}
+
+div#definition {
+  margin-right: 30px;
+  position: relative;
+}
+
+div#definition header a {
+  position: absolute;
+  display: flex;
+  place-content: center;
+  left: 19px;
+  top: 43px;
+  background-color: #E686B4;
+  border: none;
+  border-radius: 20px;
+  width: 54px;
+  height: 57px;
+}
+
+div#definition header h1 {
+  position: absolute;
+  left: 154px;
+  top: 59px;
+}
+
+div#definition header svg {
+  position: absolute;
+  top: 15.5px;
+  color: #FAfafa;
+}
+
+div#definition main {
+  position: absolute;
+  left: 28px;
+  top: 158px;
+}
+
+div#definition footer {
+  display: flex;
+  justify-content: center;
+}
+
+div#definition footer img {
+  position: absolute;
+  bottom: 60px;
+}
+
+div#definition2 {
+  margin-right: 30px;
+  position: relative;
+}
+
+div#definition2 main {
+  position: absolute;
+  top: 30px;
+}
+
+div#definition2 footer {
+  position: absolute;
+  bottom: 117px;
+
+  color: #517099;
+  font-weight: 500;
+  font-size: 20px;
+} 
+
+div#why {
+  margin-right: 30px;
+  position: relative;
+}
+
+div#why header h1 {
+  position: absolute;
+  top: 57px;
+  right: 100px;
+}
+
+div#why main {
+  position: absolute;
+  top: 143px;
+}
+
+div#why footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 45px;
+  width: 100%;
+}
+
+div#why footer img {
+  width: 214px;
+  height: 199px;
+}

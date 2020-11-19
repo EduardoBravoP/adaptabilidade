@@ -1,0 +1,158 @@
+div#container {
+  background: linear-gradient(180deg, #C9D6FF 0%, rgba(255, 255, 255, 0) 100%), #E8E9EB;
+}
+
+div #main {
+  position: relative;
+  width: 634px;
+  height: 100vh;
+}
+
+div#main #transition {
+  left: 40px;
+  animation: appear 0.7s ease-in;
+}
+
+div #main h1 {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 700;
+  color: #6F9CD8;
+
+  left: 104px;
+  top: 270px;
+
+  animation: appearFromLeft 1s normal;
+}
+
+div #main p {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  color: #35A99B;
+
+  left: 113px;
+  top: 231px;
+}
+
+div #main a{
+  position: absolute;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fafafa;
+  text-decoration: none;
+
+  bottom: 173px;
+}
+
+div #main a p {
+  position: absolute;
+  left: 15px;
+  top: 11px;
+  color: #fafafa;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+div #main a svg {
+  color: #fafafa;
+  position: absolute;
+
+  right: 20px;
+}
+
+div #main a#ted {
+  position: absolute;
+  display: flex;
+  width: 190px;
+  height: 53px;
+  align-items: center;
+  background-color: #69C2B7;
+  border-radius: 20px;
+  border: 0;
+
+  left: 71px;
+}
+
+div #main a#leitura {
+  position: absolute;
+  display: flex;
+  width: 190px;
+  height: 53px;
+  align-items: center;
+  background-color: #E686B4;
+  border-radius: 20px;
+  border: 0;
+
+  right: 60px;
+}
+
+div #main a#leitura svg {
+  position: absolute;
+  top: 9px;
+}
+
+div #background {
+  display: flex;
+  width: calc(1vw - 634px);
+  height: 1vh;
+}
+
+div #background img {
+  width: 851px;
+  height: 514px;
+  position: absolute;
+
+  right: 20px;
+  bottom: 70px;
+}
+
+div #background a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 53px;
+  right: 70px;
+  top: 31px;
+  border: 3px solid #7092BE;
+  border-radius: 20px;
+  background: transparent;
+  text-decoration: none;
+}
+
+div #background a p {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #7092BE;
+  padding: 0px 10px 0px 20px;
+}
+
+div #background a svg {
+  color: #7092BE;
+  margin-left: 10px;
+  position: absolute;
+  top: 12px;
+  right: 17px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appearFromLeft {
+  from {
+    opacity: 0;
+    left: 0;
+  }
+  to {
+    opacity: 1;
+    left: 104px;
+  }
+}
